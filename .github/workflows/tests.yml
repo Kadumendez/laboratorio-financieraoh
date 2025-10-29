@@ -11,8 +11,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Clonar Repositorio
+    - name: ClonarRepositorio
+      uses: actions/checkout@v2
+    
 
     - name: Install Python
       uses: actions/setup-python@v2
