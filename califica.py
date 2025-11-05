@@ -1,3 +1,5 @@
+# Lógica para evaluar la elegibilidad de un cliente para una tarjeta de crédito
+
 def evaluar_cliente(edad: int, ingresos: float) -> dict:
     if edad < 18 or ingresos < 1000:
         return {"aprobado": False, "categoria": None, "linea": None}

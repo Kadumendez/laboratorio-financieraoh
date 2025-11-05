@@ -1,3 +1,5 @@
+# Capa de presentación o servicio API:
+
 from fastapi import FastAPI, HTTPException
 from califica import evaluar_cliente
 
